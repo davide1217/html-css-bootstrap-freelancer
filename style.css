@@ -1,0 +1,289 @@
+/* header */
+header{
+  height: 80px;
+  background-color: #2C3E50;
+}
+
+header a{
+  text-transform: uppercase;
+}
+
+#call_to_action {
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+header i{
+  color: #919498;
+  border: 2px solid #919498;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+header i:hover{
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+#_anchors{
+  margin-bottom: 0;
+}
+
+#_anchors li a{
+  font-size: .75rem;
+}
+/* /header */
+
+
+/* jumbotron */
+._jumbotron{
+  background-color: #53BD9D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._jumbotron img{
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+._jumbotron h2{
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#_applications h5{
+  color: white;
+  font-size: .8rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+/* /jumbotron */
+
+
+/* main */
+main .container{
+  margin-top: 10px;
+}
+/* portfolio */
+#portfolio ._row{
+  max-width: 1000px;
+  margin: auto;
+}
+
+#portfolio *{
+  color: black;
+}
+
+#portfolio .star_shadow{
+  border-color: black;
+}
+
+._card{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+._card img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+._card .overlay{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  display: none;
+  background-color: rgba(83, 189, 157, .7);
+}
+
+#portfolio ._card .overlay i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4rem;
+}
+
+._card:hover .overlay{
+  display: block;
+}
+/* /portfolio */
+
+
+/* about */
+#about{
+  background-color: #53BD9D;
+}
+
+#about *{
+  color: white;
+}
+
+#about ._row{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#about ._row > div{
+  margin-bottom: 30px;
+}
+
+#about button{
+  background-color: #53BD9D;
+}
+
+#about button:hover{
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+#about button:hover i{
+  color: black;
+}
+/* /about */
+
+
+/* contact me */
+#contact *{
+  color: black;
+  border-color: black;
+}
+
+#contact ._row{
+  width: 60%;
+  margin: 0 auto;
+}
+
+#contact input {
+  width: 100%;
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  border: 0px solid #eee;
+  border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+
+#contact input:focus {
+ box-shadow:0px 0px px #6192D1;
+ -webkit-box-shadow: 0px 0px px  #6192D1;
+ -webkit-padding: 3px;
+  
+  border-width: 2px;
+  border-color: transparent;
+  border-style: inset;
+
+ outline: 0;
+}
+
+#contact textarea {
+  width: 100%;
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  border: 0px solid #eee;
+  border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+
+#contact textarea:focus {
+ box-shadow:0px 0px px #6192D1;
+ -webkit-box-shadow: 0px 0px px  #6192D1;
+ -webkit-padding: 3px;
+  
+  border-width: 2px;
+  border-color: transparent;
+  border-style: inset;
+
+ outline: 0;
+}
+
+#contact button{
+  background-color: #53BD9D;
+  color: white;
+  border-color: #53BD9D;
+}
+
+#contact ._col > div{
+  margin-top: 10px;
+}
+
+#contact button:hover{
+  background-color: #38846C;
+}
+/* /contact me */
+
+
+/* general info */
+#general-info{
+  background-color: #3A546D;
+}
+
+#general-info *{
+  color: white;
+}
+
+#general-info ._row{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding-top: 20px;
+}
+
+#general-info ._col{
+  margin-bottom: 30px;
+}
+
+#general-info h6{
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+#general-info i{
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+#general-info #FB{
+  padding: 15px 19px;
+}
+
+#general-info #GO{
+  padding: 15px 14px;
+}
+
+#general-info #LI{
+  padding: 15px 16px;
+}
+
+#general-info ._col:last-of-type a{
+  color: #53BD9D;
+}
+/* /general info */
+
+/* main */
+
+
+/* footer */
+footer{
+  background-color: #2C3E50;
+  color: white;
+  height: 100px;
+}
+
+footer > div{
+  font-size: .7rem;
+}
+
+footer i{
+  color: white;
+}
+/* /footer */
